@@ -7,11 +7,13 @@ jobs:
   deploy-page:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout 
-        uses: actions/checkout@v2.3.1
-        
-      -name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          Branch: gh-pages
+          branch: releases/v4
           folder: .
+          clean: false
+          single-commit: true
