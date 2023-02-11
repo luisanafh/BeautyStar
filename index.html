@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=bi, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Beauty Star</title>
+    <link rel="icon" href="/icons/labios (2).ico"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <header>
+        <nav class="menu"><!--Menu-->
+            <a href="index.html" class="container-logo">
+                <img src="images/labios.png" class="logo">
+                <br><h4>Beauty Star</h4>
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-nav">
+                <i class="fas fa-bars"></i>
+            </label>
+                <ul= class="menu2">
+                    <li class="inicio">
+                        <a href="index.html">
+                            <span class="text-item"> <h3><b>Inicio</b></h3></span>
+        
+                          </a>
+                    </li>
+                    <li class="productos">
+                        <input type="checkbox" id="check-p">
+                        <label for="check-p">
+                            <a>
+                                <span class="text-item"> <h3><b>Productos</b></h3></span>
+            
+                            </a>
+                            <ul class="subp">
+                                <li><a href="productos.html"><h4> Labios</h4></a></li>
+                                <li><a href="productos.html"><h4>Pestañas</h4></a></li>
+                                <li><a href="productos.html"><h4>Ojos</h4></a></li>
+                                <li><a href="productos.html"><h4>Maquillaje piel</h4></a></li>
+                                <li><a href="productos.html"><h4>Uñas</h4></a></li>
+                                <li><a href="productos.html"><h4>Cuidado de la piel</h4></a></li>
+                            </ul>
+                        </label>
+                    </li>
+                    <li class="contactanos">
+                        <a href="contactanos.html">
+                            <span class="text-item"><h3><b>Contactanos</b></h3></span>
+                          </a>
+                    </li>
+                </ul>
+        </nav>
+        <div class="carrito-btn">
+            <input type="checkbox" id="check-c">
+            <label for="check-c" class="checkbtn">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path d="M22.713,4.077A2.993,2.993,0,0,0,20.41,3H4.242L4.2,2.649A3,3,0,0,0,1.222,0H1A1,1,0,0,0,1,2h.222a1,1,0,0,1,.993.883l1.376,11.7A5,5,0,0,0,8.557,19H19a1,1,0,0,0,0-2H8.557a3,3,0,0,1-2.82-2h11.92a5,5,0,0,0,4.921-4.113l.785-4.354A2.994,2.994,0,0,0,22.713,4.077ZM21.4,6.178l-.786,4.354A3,3,0,0,1,17.657,13H5.419L4.478,5H20.41A1,1,0,0,1,21.4,6.178Z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg>
+                     <div class="carrito">
+                        <h3>Carrito</h3>
+                        <a href="#" class="btn-pagar">Pagar</a>
+                    </div>
+            </label>
+        </div>
+    </header>
+    <div class="contenedor">
+        <div class="slider-contenedor">
+            <div class="slider">
+                <section class="contenido-slider">
+                    <img src="images/img1.jpg" alt="Maquillaje">
+                </section>
+            </div>
+            <div class="slider">
+                <section class="contenido-slider">
+                    <img src="images/img2.jpg" alt="Maquillaje">
+                </section>
+
+            </div>
+            <div class="slider">
+                <section class="contenido-slider">
+                    <img src="images/img3.jpg" alt="Maquillaje">
+                </section>
+
+            </div>
+            <div class="slider">
+                <section class="contenido-slider">
+                    <img src="images/img1.jpg" alt="Maquillaje">
+                </section>
+    
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="Carousel">
+        <h2 class="text-po"> Productos populares </h2>
+        <div class="populares">
+            <div class="slick-list" id="slick-list">
+                <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/1.jpg"></a>                    
+                                        <span class="down-item"><h6>Protector solar bioderma color piel</h6>
+                                            <h4>5$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/2.jpg"></a>                    
+                                        <span class="down-item"><h6>Mascarilla de colageno</h6>
+                                           <h4>1$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/3.jpg"></a>                    
+                                        <span class="down-item"><h6>esponja beauty</h6>
+                                            <h4>1$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/4.jpg"></a>                    
+                                        <span class="down-item"><h6>Crema facial nivea</h6>
+                                            <h4>8$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/5.jpg"></a>                    
+                                        <span class="down-item"><h6>Balsamo</h6>
+                                           <h4>1$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/6.jpg"></a>                    
+                                        <span class="down-item"><h6>kit de brochas</h6>
+                                           <h4>15$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/7.jpg"></a>                    
+                                        <span class="down-item"><h6>rimel</h6>
+                                           <h4>2$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/8.jpg"></a>                    
+                                        <span class="down-item"><h6>delineador dorado</h6>
+                                           <h4>8$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+        </div>
+        <h2>Productos nuevos</h2>
+        <div class="Nuevos"> 
+            <div class="slick-list" id="slick-list">
+                <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/9.jpg"></a>                    
+                                        <span class="down-item"><h6>desmaquillante de ojos Nivea</h6>
+                                           <h4>8$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/10.jpg"></a>                    
+                                        <span class="down-item"><h6>Labial mate liquido inpermeable</h6>
+                                           <h4>3$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/11.jpg"></a>                    
+                                        <span class="down-item"><h6>Labial Mac</h6>
+                                           <h4>2$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/12.jpg"></a>                    
+                                        <span class="down-item"><h6>Endurecedor</h6>
+                                           <h4>1$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/13.jpg"></a>                    
+                                        <span class="down-item"><h6>Mascarilla para puntos negros</h6>
+                                           <h4>1,5$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/14.jpg"></a>                    
+                                        <span class="down-item"><h6>Perfume fantasy</h6>
+                                           <h4>30$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/15.jpg"></a>                    
+                                        <span class="down-item"><h6>Esmalte metalico</h6>
+                                           <h4>2,5$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/16.jpg"></a>                    
+                                        <span class="down-item"><h6>Esmalte fluorecente</h6>
+                                           <h4>3$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+        </div>
+        <h2>Otros productos</h2>
+        <div class="Otros">
+            <div class="slick-list" id="slick-list">
+                <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/17.jpg"></a>                    
+                                        <span class="down-item"><h6>crema hidratante Neutrogena</h6>
+                                           <h4>30$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/18.jpg"></a>                    
+                                        <span class="down-item"><h6>Polvo compacto clinique</h6>
+                                           <h4>1$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/19.jpg"></a>                    
+                                        <span class="down-item"><h6>Splash de caballero</h6>
+                                           <h4>7$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/20.jpg"></a>                    
+                                        <span class="down-item"><h6>Quita esmalte de limon</h6>
+                                           <h4>2$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/21.jpg"></a>                    
+                                        <span class="down-item"><h6>Delineador Perfect Line</h6>
+                                           <h4>1,5$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/22.jpg"></a>                    
+                                        <span class="down-item"><h6>Pestañas completas</h6>
+                                           <h4>1$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/23.jpg"></a>                    
+                                        <span class="down-item"><h6>mascarilla facial</h6>
+                                           <h4>4$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div class="producto">
+                                <a href="/">
+                                    <a href="#"><img src="images/24.jpg"></a>                    
+                                        <span class="down-item"><h6>Cera depiladoria</h6>
+                                           <h4>2$</h4><a href="#" class="btn">Comprar</a>
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+        </div>
+            <footer class="marque">
+               <marquee   behavior="alternate" scrollamount="6"><p><i><b>Desarrollador: Luisana Fuster Estudiante de 4to Semeste en ADS en la UNEFA</b></i></p></marquee>
+            </footer>
+    <script defer src="main.js"></script>
+</body>
+</html>
