@@ -244,6 +244,7 @@ h2{
     
     
 .populares{
+    overflow: hidden
     width: 100%;
     background: rgba(255, 23, 236, 0.589); height: 400px;
     display: flex;
@@ -256,6 +257,7 @@ h2{
     margin-top: 1%;
 }
 .Nuevos{
+    overflow: hidden
     width: 100%;
     background: rgba(255, 23, 236, 0.589); height: 400px;
     display: flex;
@@ -264,6 +266,7 @@ h2{
     height: 430px;
 }
 .Otros{
+    overflow: hidden
     width: 100%;
     background: rgba(255, 23, 236, 0.589); height: 400px;
     display: flex;
