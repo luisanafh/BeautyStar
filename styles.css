@@ -249,7 +249,7 @@ h2{
     display: flex;
     justify-content: center;
     box-shadow: 10px 20px 40px rgb(255, 23, 236);
-    height: 420px;
+    height: 430px;
    
 }
 .text-po{
@@ -261,7 +261,7 @@ h2{
     display: flex;
     justify-content: center;
     box-shadow: 10px 20px 40px rgb(255, 23, 236);
-    height: 420px;
+    height: 430px;
 }
 .Otros{
     width: 100%;
@@ -269,7 +269,7 @@ h2{
     display: flex;
     justify-content: center;
     box-shadow: 10px 20px 40px rgb(255, 23, 236);
-    height: 420px;
+    height: 430px;
 }
 
 .btn{
